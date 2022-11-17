@@ -31,10 +31,10 @@ const FeedbackItem = () => {
             <div className="text-display">
                 {text}
             </div>
-            <button onClick={addNota}>
+            <button className="btn" onClick={addNota}>
                 Sumar nota
             </button>
-            <button onClick={restarNota}>
+            <button className="btn" onClick={restarNota}>
                 Disminuir nota
             </button>
         </div>
